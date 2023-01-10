@@ -1,10 +1,18 @@
 .Pokedex{
+    margin-top: 50px;
+}
+
+.Pokedex-pokemons{
     display:flex;
     width:100%;
     flex-wrap: wrap;
-    margin: 20px 0px;
     justify-content: center;
 }
+
+.Pokedex-totalExp{
+    text-align: center;
+}
+
 .Pokedex-msg{
     width: 100%;
     text-align: center;

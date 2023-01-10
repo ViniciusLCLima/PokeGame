@@ -50,8 +50,8 @@ class Pokegame extends Component{
         }
         return <div>
             <h1 className='Pokegame-title'>PokeGame!</h1>
-            <Pokedex msg={msg1} msgStyle={msg1Style} pokemons={pokemons}/>
-            <Pokedex msg={msg2} msgStyle={msg2Style}pokemons={pokemons2}/>
+            <Pokedex msg={msg1} msgStyle={msg1Style} totalExp={pokemonsTotalExp} pokemons={pokemons}/>
+            <Pokedex msg={msg2} msgStyle={msg2Style} totalExp={pokemons2TotalExp} pokemons={pokemons2}/>
         </div>
     }
 }
