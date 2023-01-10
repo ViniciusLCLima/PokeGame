@@ -2,6 +2,7 @@
 
 ## Description
 This is a small project built with react. It loads two pokedex, each with 4 pokemons got from a hand of eight and determines the winning one based on the sum of the pokemons experiences.
+![](preview.PNG)
 
 ## Getting Started
 
