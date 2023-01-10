@@ -1,0 +1,22 @@
+.Pokedex{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    justify-content: center;
+}
+.Pokedex-msg{
+    width: 100%;
+    text-align: center;
+}
+.msg-green{
+    color:green;
+}
+
+.msg-red{
+    color:red;
+}
+
+.msg-gray{
+    color:gray;
+}
