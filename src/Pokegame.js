@@ -49,9 +49,13 @@ class Pokegame extends Component{
             msg1Style = "msg-gray"
         }
         return <div>
-            <h1 className='Pokegame-title'>PokeGame!</h1>
-            <Pokedex msg={msg1} msgStyle={msg1Style} totalExp={pokemonsTotalExp} pokemons={pokemons}/>
-            <Pokedex msg={msg2} msgStyle={msg2Style} totalExp={pokemons2TotalExp} pokemons={pokemons2}/>
+            <header>
+                <h1 className='Pokegame-title'>PokeGame!</h1>
+            </header>
+            <main>
+                <Pokedex msg={msg1} msgStyle={msg1Style} totalExp={pokemonsTotalExp} pokemons={pokemons}/>
+                <Pokedex msg={msg2} msgStyle={msg2Style} totalExp={pokemons2TotalExp} pokemons={pokemons2}/>
+            </main>
         </div>
     }
 }
